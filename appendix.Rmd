@@ -1,0 +1,142 @@
+\renewcommand{\figurename}{Supplementary Figure}
+\renewcommand{\tablename}{Supplementary Table}
+\renewcommand{\thefigure}{\arabic{figure}} \setcounter{figure}{0}
+\renewcommand{\thetable}{\arabic{table}} \setcounter{table}{0}
+\renewcommand{\theequation}{S\arabic{equation}} \setcounter{equation}{0}
+
+# **Supplementary Information**
+
+\setcounter{page}{1}
+\centering
+\noindent \hspace*{5mm} \small Crowdsourcing and phylogenetic modelling reveal parrot tool use is not rare \newline
+\hspace*{1cm} \small Amalia P. M. Bastos\textsuperscript{1,2}, Scott Claessens\textsuperscript{2}, Ximena J. Nelson\textsuperscript{3}, David Welch\textsuperscript{4}, \newline
+\hspace*{25mm} Quentin D. Atkinson\textsuperscript{2}, Alex H. Taylor\textsuperscript{2,3,5,6} \newline
+\raggedright
+\noindent \footnotesize \textsuperscript{1} Department of Psychological & Brain Sciences, Johns Hopkins University, Baltimore, MD, United States \newline
+\noindent \footnotesize \textsuperscript{2} School of Psychology, University of Auckland, Auckland, New Zealand \newline
+\noindent \footnotesize \textsuperscript{3} School of Biological Sciences, University of Canterbury, Christchurch, New Zealand \newline
+\noindent \footnotesize \textsuperscript{4} School of Computer Science, University of Auckland, Auckland, New Zealand \newline
+\noindent \footnotesize \textsuperscript{5} ICREA, Pg. Lluís Companys 23, Barcelona, Spain \newline
+\noindent \footnotesize \textsuperscript{6} Institute of Neuroscience, Universitat Autònoma de Barcelona, Barcelona, Spain \newline
+\normalsize
+\newpage
+
+## Supplementary Figures
+
+(ref:plotSurvCure3Caption) _Median posterior probabilities of undetected tool use for each parrot species without observed evidence of tool use from reduced model._ This reduced version of the phylogenetic survival cure model does not contain relative brain size or feeding strategy as predictors, nor does it contain any phylogenetic covariance. The only information included in the model is the number of papers published and the number of YouTube search hits for each species. Each point is a parrot species without observed evidence of tool use, and the colour of the points scales with the probability of undetected tool use. All else being equal, those species with fewer published papers and fewer YouTube search hits have a higher probability of being undetected tool users.
+
+```{r plotSurvCure3, echo=FALSE, warning=FALSE, fig.width=5, fig.height=4, fig.cap="(ref:plotSurvCure3Caption)"}
+tar_read(plotSurvCure3)
+```
+
+\newpage
+
+(ref:plotSurvCure9Caption) _Receiver operating characteristic (ROC) curve for the phylogenetic survival cure model._ The area-under-the-curve in this plot is `r printnum(tar_read(auc), digits = 2)`, suggesting that the model is able to adequately classify observed tool users and non-tool users.
+
+```{r plotSurvCure9, echo=FALSE, warning=FALSE, fig.width=4, fig.height=4, fig.cap="(ref:plotSurvCure9Caption)"}
+tar_read(plotSurvCure9)
+```
+
+\newpage
+
+(ref:plotSurvCure5Caption) _Prior and posterior phylogenetic covariance functions from the Bayesian survival cure model fitted to the full dataset._ Lines are median posterior functions and shaded areas are 50% and 95% credible intervals.
+
+```{r plotSurvCure5, echo=FALSE, warning=FALSE, fig.width=7, fig.height=4, fig.cap="(ref:plotSurvCure5Caption)"}
+tar_read(plotSurvCure5)
+```
+
+\newpage
+
+(ref:plotSurvCure6Caption) _Between-species correlation matrix implied by the posterior phylogenetic covariance function from the Bayesian survival cure model._ Correlations are median posterior estimates. Individual species names omitted for space reasons.
+
+```{r plotSurvCure6, echo=FALSE, warning=FALSE, fig.width=6.5, fig.height=6, fig.cap="(ref:plotSurvCure6Caption)"}
+tar_read(plotSurvCure6)
+```
+
+\newpage
+
+(ref:plotComparisonCaption) _Comparing results between the survival cure model and models fitted to the pre-survey and post-survey data without any survival cure component._ Densities are full posterior distributions from three separate models iterated over 100 posterior parrot phylogenies. Points represent posterior medians, and lines represent 50% and 95% credible intervals.
+
+```{r plotComparison, echo=FALSE, warning=FALSE, fig.width=8, fig.height=4, fig.cap="(ref:plotComparisonCaption)"}
+tar_read(plotComparison)
+```
+
+\newpage
+
+(ref:plotASR1Caption) _Results of exploratory ancestral state reconstruction analysis fitted to pre-video-survey data, represented on a maximum clade credibility tree._ Tip nodes represent the presence (red) or absence (grey) of observed tool use in the scientific literature. Pie charts represent the posterior probability of tool use presence at each ancestral node.
+
+```{r plotASR1, echo=FALSE, warning=FALSE, fig.width=10, fig.height=13, fig.cap="(ref:plotASR1Caption)"}
+tar_read(plotASR1)
+```
+
+\newpage
+
+(ref:plotASR2Caption) _Results of exploratory ancestral state reconstruction analysis fitted to post-video-survey data, represented on a maximum clade credibility tree._ Tip nodes represent the presence (red) or absence (grey) of observed tool use in the scientific literature and the video survey. Pie charts represent the posterior probability of tool use presence at each ancestral node.
+
+```{r plotASR2, echo=FALSE, warning=FALSE, fig.width=10, fig.height=13, fig.cap="(ref:plotASR2Caption)"}
+tar_read(plotASR2)
+```
+
+\newpage
+
+(ref:plotASR3Caption) _Results of exploratory ancestral state reconstruction analysis fitted to predicted probabilities from the phylogenetic survival cure model, represented on a maximum clade credibility tree._ Tip nodes represent the median posterior predicted probabilities of tool use from the phylogenetic survival cure model, with more red indicating an increasing probability of tool use presence and more grey indicating a decreasing probability of tool use presence. Pie charts represent the posterior probability of tool use presence at each ancestral node.
+
+```{r plotASR3, echo=FALSE, warning=FALSE, fig.width=10, fig.height=13, fig.cap="(ref:plotASR3Caption)"}
+tar_read(plotASR3)
+```
+
+\newpage
+
+(ref:plotPhylo2Caption) _Data on encephalisation quotient and feeding strategy for all parrots, presented on a maximum clade credibility tree._ Tip points are coloured according to feeding generalism (orange) and specialism (blue), and scaled according to encephalisation quotient (EQ).
+
+```{r plotPhylo2, echo=FALSE, warning=FALSE, fig.width=17, fig.height=15, fig.cap="(ref:plotPhylo2Caption)"}
+tar_read(plotPhylo2)
+```
+
+\newpage
+
+(ref:plotPhylo3Caption) _Data on number of scientific publications until tool use discovery for all parrots, presented on a maximum clade credibility tree._ Tip points are scaled according to the number of published papers up until tool use discovery (or, if tool use has not been observed, the current number of published papers).
+
+```{r plotPhylo3, echo=FALSE, warning=FALSE, fig.width=17, fig.height=15, fig.cap="(ref:plotPhylo3Caption)"}
+tar_read(plotPhylo3)
+```
+
+\newpage
+
+(ref:plotPhylo4Caption) _Data on number of video search hits until tool use discovery for all parrots, presented on a maximum clade credibility tree._ Tip points are scaled according to the estimated number of video search hits up until tool use discovery (or, if tool use has not been observed, the current number of video search hits).
+
+```{r plotPhylo4, echo=FALSE, warning=FALSE, fig.width=17, fig.height=15, fig.cap="(ref:plotPhylo4Caption)"}
+tar_read(plotPhylo4)
+```
+
+\newpage
+
+(ref:plotSurvCure7Caption) _Prior predicted probabilities of tool use for each species from our phylogenetic survival cure model._ Points are prior medians and lines are 50% and 95% credible intervals.
+
+```{r plotSurvCure7, echo=F, fig.width=7, fig.height=10, fig.cap="(ref:plotSurvCure7Caption)"}
+tar_read(plotSurvCure7)
+```
+
+\newpage
+
+(ref:plotSurvCure8Caption) _Results of sensitivity analysis._ The phylogenetic survival cure model was fitted with either a standard Normal(0, 1) prior on the intercept or an alternative Normal(1.78507, 2) prior on the intercept. This latter prior is wider on the logit scale and roughly converts to a 0.86 prior probability of non-tool-use (or a 0.14 prior probability of tool-use, which is the proportion of tool users in the dataset). The sensitivity analysis showed that changing this intercept prior did not have a marked impact on (a) the posterior rankings of parrot species from 1st to 174th or (b) the median posterior probabilities of tool use for parrot species.
+
+```{r plotSurvCure8, echo=F, fig.width=4.5, fig.height=7.5, fig.cap="(ref:plotSurvCure8Caption)"}
+tar_read(plotSurvCure8)
+```
+
+\newpage
+
+(ref:plotTraceCaption) _Trace plots for the Bayesian phylogenetic survival cure model._ Only four chains are shown for ease of presentation.
+
+```{r plotTrace, echo=FALSE, warning=FALSE, fig.width=6, fig.height=6, fig.cap="(ref:plotTraceCaption)"}
+tar_read(plotTrace)
+```
+
+\newpage
+
+(ref:plotSurvCureSimCaption) _Posterior estimates from Bayesian survival cure models fitted to 100 datasets simulated with known parameters._ Each dataset consisted of 100 species. Known parameters are presented as solid vertical lines, whereas points and horizontal lines represent posterior medians and 95% credible intervals. The models were successfully able to recapture the parameters from the simulated datasets.
+
+```{r plotSurvCureSim, echo=FALSE, warning=FALSE, fig.width=8.5, fig.height=8.5, fig.cap="(ref:plotSurvCureSimCaption)"}
+tar_read(plotSurvCureSim)
+```

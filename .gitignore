@@ -1,0 +1,12 @@
+*~
+*.html
+*.out
+*.Rout
+.DS_Store
+.future
+.Rapp.history
+.RData
+.Rhistory
+.Rproj.user/
+_targets/
+_old/
