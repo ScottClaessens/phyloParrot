@@ -74,15 +74,15 @@ These installation steps should typically take no longer than half an hour on a 
 
 ## Run demo
 
-A short demo version of the analysis pipeline executes the following steps: (1) loads the data, (2) compiles the survival cure model, and (3) fits the model in Stan using only one posterior sample from the parrot phylogeny (rather than iterating over 100 posterior samples).
+A short demo executes the following steps from the full analysis pipeline: (1) loads the data, (2) estimates phylogenetic signal for tool use across 100 posterior samples from the parrot phylogeny, and (3) combines these estimates into a single posterior distribution.
 
 To run this short demo:
 
 1. Download this code repository to your local machine using `git clone https://github.com/ScottClaessens/phyloParrot` or by downloading the .zip file from GitHub
 2. Set the working directory to this code repository `setwd("myPath/phyloParrot")` on your local machine
 3. Load the `targets` package with `library(targets)`
-3. Run `tar_make(survCureFullInd_0a01cf58)` in the command line
-4. To load the model object, run `tar_load(survCureFullInd_0a01cf58)` in the command line
+3. Run `tar_make(phySignal1)` in the command line
+4. To load the model object, run `tar_load(phySignal1)` in the command line
 
 This demo should typically take 5-10 minutes on a normal desktop computer.
 
