@@ -10,6 +10,7 @@ This code has been tested on the following operating systems:
 
 - Windows 10 Education 22H2 64-bit
 - Linux 3.10.0-693.2.2.el7.x86_64 x86_64
+- macOS Ventura 13.4
 
 This code requires R (v4.2.1) and the following R package versions:
 
@@ -88,7 +89,7 @@ This demo should typically take 5-10 minutes on a normal desktop computer.
 
 ## Run full analysis pipeline
 
-The full analysis pipeline can be viewed using `targets::tar_visnetwork()`. Running this pipeline will reproduce all figures, tables, and quantitative results from the manuscript.
+The full analysis pipeline can be viewed using `targets::tar_visnetwork()`. Running this pipeline will reproduce all figures, tables, and quantitative results from the manuscript, as well as a PDF of the manuscript itself.
 
 To run the full analysis pipeline:
 
