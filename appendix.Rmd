@@ -1,7 +1,7 @@
-\renewcommand{\figurename}{Supplementary Figure}
-\renewcommand{\tablename}{Supplementary Table}
-\renewcommand{\thefigure}{\arabic{figure}} \setcounter{figure}{0}
-\renewcommand{\thetable}{\arabic{table}} \setcounter{table}{0}
+\renewcommand{\figurename}{Fig.}
+\renewcommand{\tablename}{Table}
+\renewcommand{\thefigure}{S\arabic{figure}} \setcounter{figure}{0}
+\renewcommand{\thetable}{S\arabic{table}} \setcounter{table}{0}
 \renewcommand{\theequation}{S\arabic{equation}} \setcounter{equation}{0}
 
 # **Supplementary Information**

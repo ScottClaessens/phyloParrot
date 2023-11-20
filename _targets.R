@@ -13,9 +13,9 @@ source("R/functionsSurvivalCure.R")
 options(tidyverse.quiet = TRUE)
 tar_option_set(packages = c("tidyverse", "ape", "brms", "cowplot", "dagitty", 
                             "geiger", "ggdag", "ggridges", "ggstance", "ggtree", 
-                            "magick", "papaja", "phangorn", "phytools", 
-                            "readxl", "reshape2", "rethinking", "rstan",
-                            "scales", "sdamr", "tidybayes"))
+                            "ggtreeExtra", "magick", "papaja", "phangorn", 
+                            "phytools", "readxl", "reshape2", "rethinking", 
+                            "rstan", "scales", "sdamr", "tidybayes"))
 options(
   clustermq.scheduler = "slurm", 
   clustermq.template = "slurm_clustermq.tmpl"
