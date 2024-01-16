@@ -621,12 +621,14 @@ difference in the type of tool use observed, self-scratching is nonetheless a
 major category of animal tool use. Self-scratching also meets the definition for
 a more complex type of embodied tool use known as 'tooling', the deliberate 
 generation of a mechanical interface by using an object to manipulate another 
-target or surface [@Fragaszy2018]. The fact that we found strong phylogenetic 
-clustering of self-scratching tool use from the video survey with other examples
-of tool use from the literature supports a common underlying cognitive
-mechanism. In line with this, some of the species of parrots that use tools for 
-self-scratching in captivity also use tools for other purposes in the wild
-[@Auersperg2012;@Bastos2021;@Goodman2018;@OHara2021]. 
+target or surface [@Fragaszy2018]. This makes it difficult to dismiss
+self-scratching as unimportant: to do so would require a redefinition of
+tool-use in non-human animals. Moreover, the fact that we found strong 
+phylogenetic clustering of self-scratching tool use from the video survey with 
+other examples of tool use from the literature supports a common underlying 
+cognitive mechanism. In line with this, some of the species of parrots that use
+tools for self-scratching in captivity also use tools for other purposes in the 
+wild [@Auersperg2012;@Bastos2021;@Goodman2018;@OHara2021]. 
 
 There was little evidence to suggest that the observations of self-scratching
 tool use in the video survey were merely unintentional accidents or explicitly 
