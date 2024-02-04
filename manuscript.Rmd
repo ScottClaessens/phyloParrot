@@ -45,7 +45,7 @@ mask              : no
 draft             : no
 numbersections    : false
 documentclass     : "apa6"
-classoption       : "man"
+classoption       : "man, donotrepeattitle"
 output            : papaja::apa6_pdf
 header-includes: 
   - \usepackage{array}
@@ -75,7 +75,23 @@ appendix          : "appendix.Rmd"
 csl               : pnas.csl
 ---
 
+# Significance Statement
+
+Tool use has been identified in a number of non-human animal species, including
+11 species of parrot. However, it is possible that the number of tool-using 
+parrot species has been underestimated due to insufficient research effort. 
+Here, we combine two approaches – crowdsourcing and phylogenetic modelling – to 
+estimate actual rates of tool use in parrots. Crowdsourcing on a social media 
+platform identified tool use in 17 novel parrot species, more than doubling the 
+confirmed number of tool-using parrot species from 11 to 28. Moreover, 
+phylogenetic modelling ranked additional species that are likely to be 
+unobserved tool users. Our findings have implications for inferences about the 
+evolutionary origins of technical intelligence in parrots.
+
+\newpage
 \linenumbers
+
+# Introduction
 
 Our understanding of the evolution of animal behaviour is built on the 
 assumption that we have access to sufficient data [@MacLean2012; @Lefebvre2011; 
