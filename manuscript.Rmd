@@ -72,7 +72,7 @@ header-includes:
   - \nolinenumbers
   - \note{\raggedright † These authors contributed equally to this work \par ‡ These authors contributed equally to this work \par * Correspondence concerning this article should be addressed to Scott Claessens, Level 2, Building 302, 23 Symonds Street, Auckland, New Zealand. \text{E-mail:} \href{scott.claessens@gmail.com}{\nolinkurl{scott.claessens@gmail.com}} \par This working paper has not yet been peer-reviewed.}
 appendix          : "appendix.Rmd"
-csl               : nature.csl
+csl               : pnas.csl
 ---
 
 \linenumbers
