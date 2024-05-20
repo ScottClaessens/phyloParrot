@@ -21,10 +21,10 @@ drawDAG <- function() {
     ggplot(aes(x = x, y = y, xend = xend, yend = yend))
   # modify labels
   labels <- c("TUu"    = "Tool use\n(unobserved)",
-              "TUoLit" = "Tool use\nobserved in\nliterature",
-              "TUoVid" = "Tool use\nobserved in\ncrowdsourcing",
+              "TUoLit" = "Tool use\nobserved in\nscientific literature",
+              "TUoVid" = "Tool use\nobserved on\ndigital video platform",
               "numLit" = "Number of\nscientific papers\npublished",
-              "numVid" = "Number of\ncrowdsourced\nreports",
+              "numVid" = "Number of\nvideos on\ndigital platform",
               "EQ"     = "Relative\nbrain size",
               "F"      = "Feeding\nstrategy",
               "U"      = "Unobserved\nconfounds",

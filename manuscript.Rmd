@@ -1,5 +1,5 @@
 ---
-title             : "Crowdsourcing and phylogenetic modelling reveal parrot tool use is not rare"
+title             : "Digital video platforms and phylogenetic modelling reveal parrot tool use is not rare"
 shorttitle        : "Parrot tool use"
 
 author: 
@@ -31,9 +31,9 @@ affiliation:
     institution   : "\\footnotesize Institute of Neuroscience, Universitat Autònoma de Barcelona, Barcelona, Spain"
 
 abstract: |
- Putatively rare behaviours, such as tool use, are challenging to study because absence of evidence can arise either from a species’ inability to produce the behaviour or from insufficient research effort. Here, we tackle this challenge by combining crowdsourcing and phylogenetic modelling to estimate actual rates of tool use in parrots. Crowdsourcing on a social media platform revealed novel instances of tool use in 17 parrot species, more than doubling the confirmed number of tool-using parrot species from 11 (3%) to 28 (7%). Phylogenetic modelling ranked additional species that are most likely to be unobserved tool users, suggesting that between 11% and 17% of extant parrot species may be tool users. These discoveries have implications for inferences about the evolutionary drivers and origins of tool use in parrots, revealing associations with relative brain size and feeding generalism and indicating several genera where tool use was likely an ancestral trait. Overall, our findings challenge the assumption that current sampling effort captures the full distribution of putatively rare animal behaviours. Combining our sampling and analysis methods offers a fruitful approach for investigating the distribution, drivers, and origins of other rare behaviours.
+ Putatively rare behaviours, such as tool use, are challenging to study because absence of evidence can arise either from a species’ inability to produce the behaviour or from insufficient research effort. Here, we tackle this challenge by combining data from digital platforms and phylogenetic modelling to estimate actual rates of tool use in parrots. Videos on a social media platform revealed novel instances of tool use in 17 parrot species, more than doubling the confirmed number of tool-using parrot species from 11 (3%) to 28 (7%). Phylogenetic modelling ranked additional species that are most likely to be unobserved tool users, suggesting that between 11% and 17% of extant parrot species may be tool users. These discoveries have implications for inferences about the evolutionary drivers and origins of tool use in parrots, revealing associations with relative brain size and feeding generalism and indicating several genera where tool use was likely an ancestral trait. Overall, our findings challenge the assumption that current sampling effort captures the full distribution of putatively rare animal behaviours. Combining our sampling and analysis methods offers a fruitful approach for investigating the distribution, drivers, and origins of other rare behaviours.
 
-keywords          : "tool use; technical intelligence; parrots; crowdsourcing; phylogenetic modelling"
+keywords          : "tool use; technical intelligence; parrots; digital video platforms; phylogenetic modelling"
 bibliography      : ["r-references.bib"]
 floatsintext      : yes
 figurelist        : no
@@ -72,24 +72,11 @@ header-includes:
   - \nolinenumbers
   - \note{\raggedright † These authors contributed equally to this work \par ‡ These authors contributed equally to this work \par * Correspondence concerning this article should be addressed to Scott Claessens, Level 2, Building 302, 23 Symonds Street, Auckland, New Zealand. \text{E-mail:} \href{scott.claessens@gmail.com}{\nolinkurl{scott.claessens@gmail.com}} \par This working paper has not yet been peer-reviewed.}
 appendix          : "appendix.Rmd"
-csl               : pnas.csl
+csl               : current-biology.csl
 ---
-
-# Significance Statement
-
-Tool use has been identified in a number of non-human animal species, including
-11 species of parrot. However, it is possible that the number of tool-using 
-parrot species has been underestimated due to insufficient research effort. 
-Here, we combine two approaches – crowdsourcing and phylogenetic modelling – to 
-estimate actual rates of tool use in parrots. Crowdsourcing on a social media 
-platform identified tool use in 17 novel parrot species, more than doubling the 
-confirmed number of tool-using parrot species from 11 to 28. Moreover, 
-phylogenetic modelling ranked additional species that are likely to be 
-unobserved tool users. Our findings have implications for inferences about the 
-evolutionary origins of technical intelligence in parrots.
-
+ 
 \newpage
-\linenumbers
+\nolinenumbers
 
 # Introduction
 
@@ -146,33 +133,32 @@ and origins of tool use and for our understanding of how rare this behaviour
 actually is.
 
 One potentially powerful method for quantifying actual rates of rare animal 
-behaviours is crowdsourcing [@Nelson2013]. In a crowdsourcing study, researchers 
-collect reports from the general public and/or collate and analyse videos posted 
-on social media platforms. This citizen science approach has been widely used in 
-ecology to monitor the distributional patterns of species [@Dickinson2010], but 
-has also recently been used to uncover a variety of rare animal behaviours, 
-including interspecies play in dogs [@Nelson2013], novel problem-solving 
-behaviours in horses [@Krueger2019], and socially-learned foraging innovations 
-in cockatoos [@Klump2021;@Klump2022]. By casting the net wider than the 
-scientific literature, the crowdsourcing method can provide an indication of the 
+behaviours is by collating evidence of the behaviours from digital video 
+platforms [@Nelson2013]. With millions of videos posted every day, digital 
+platforms like YouTube offer a valuable source of data on animal behaviour. 
+Digital video platforms have already been successfully used to uncover a variety
+of rare animal behaviours, including interspecies play in dogs [@Nelson2013], 
+novel problem-solving behaviours in horses [@Krueger2019], and death-related 
+behaviours in Asian elephants [@Pokharel2022]. By casting the net wider than the 
+scientific literature, digital video platforms can provide an indication of the 
 tool-using species that the literature might be missing.
 
-Even after using this crowdsourcing approach, some tool-users could _still_ 
-remain unobserved. One principled framework for identifying these unobserved species 
-is to specify a causal model of the process that generates the observed data. We 
-propose one such causal model in Figure \@ref(fig:plotDAG). In this model, we 
-assume that the presence of tool use in the scientific literature (or in 
-crowdsourced reports) is caused by both unobserved tool use capabilities and the 
-number of published studies (or the number of crowdsourced reports) for any 
-given species. Tool users are more likely to be observed if they are well 
-studied, but understudied tool users may go undetected. Furthermore, based on 
-existing theories of the evolution of tool use [@Ducatez2015;
-@HenkeVonDerMalsburg2020;@Lefebvre1997;@Lefebvre2002;@Lefebvre2004;
-@MettkeHofmann2014;@Overington2011;@Sol2005;@Sol2009], we propose that the 
-unobserved tool use capabilities are additionally caused by relative brain size, 
-feeding strategy, and shared phylogenetic ancestry. Expressing this causal model 
-as a statistical model can suggest further species which are likely to be 
-unobserved tool-users and, simultaneously, test existing theories of the 
+Even after collating evidence from digital video platforms, some tool-users 
+could _still_ remain unobserved. One principled framework for identifying these
+unobserved species is to specify a causal model of the process that generates
+the observed data. We propose one such causal model in Figure 
+\@ref(fig:plotDAG). In this model, we assume that the presence of tool use in 
+the scientific literature (or on digital video platforms) is caused by both 
+unobserved tool use capabilities and the number of published studies (or the 
+number of videos) for any given species. Tool users are more likely to be 
+observed if they are well studied, but understudied tool users may go 
+undetected. Furthermore, based on existing theories of the evolution of tool use
+[@Ducatez2015;@HenkeVonDerMalsburg2020;@Lefebvre1997;@Lefebvre2002;
+@Lefebvre2004;@MettkeHofmann2014;@Overington2011;@Sol2005;@Sol2009], we propose
+that the unobserved tool use capabilities are additionally caused by relative 
+brain size, feeding strategy, and shared phylogenetic ancestry. Expressing this
+causal model as a statistical model can suggest further species which are likely
+to be unobserved tool-users and, simultaneously, test existing theories of the 
 evolutionary drivers of tool use without incorrectly assuming that absence of 
 evidence is evidence of absence.
 
@@ -180,39 +166,37 @@ evidence is evidence of absence.
 of the causal relationships between observed tool use and other variables. 
 Available scientific data on tool use is caused both by unobserved tool use 
 presence and scientific research effort (i.e., number of publications). 
-Available crowdsourced data on tool use is caused both by unobserved tool use 
-presence and crowdsourcing effort (i.e., number of crowdsourced reports). 
-According to theory, unobserved tool use presence should be caused by relative 
-brain size (encephalisation quotient) and feeding strategy (generalist vs. 
-specialist). These variables all share unobserved confounds generated by shared 
-phylogenetic history. Grey circles indicate unobserved variables.
+Available video data on tool use is caused both by unobserved tool use 
+presence and video research effort (i.e., number of videos). According to 
+theory, unobserved tool use presence should be caused by relative brain size 
+(encephalisation quotient) and feeding strategy (generalist vs. specialist). 
+These variables all share unobserved confounds generated by shared phylogenetic
+history. Grey circles indicate unobserved variables.
 
 ```{r plotDAG, echo=F, fig.width=6, fig.height=3.6, fig.cap="(ref:plotDAGCaption)"}
 tar_read(plotDAG)
 ```
 
-Here, we apply these crowdsourcing and phylogenetic modelling approaches to tool 
-use in the parrot order. We focus on tool use in parrots for a number of 
-reasons. First, the scientific literature suggests that only a small proportion 
-of extant parrot species (11 out of 398; 3%) use tools 
-[@Auersperg2009;@Auersperg2010;@Auersperg2011a;@Auersperg2011b;@Auersperg2012;
-@Bastos2021;@BentleyCondit2010;@Borsari2005;@Goodman2018;@Heinsohn2017;
-@Janzen1976;@Lambert2015;@Lefebvre2002;@OHara2021]. Parrot tool use 
-thus provides an ideal test case for examining how robust sampling is in the 
+Here, we apply these approaches to tool use in the parrot order. We focus on 
+tool use in parrots for a number of reasons. First, the scientific literature 
+suggests that only a small proportion of extant parrot species (11 out of 398;
+3%) use tools [@Auersperg2009;@Auersperg2010;@Auersperg2011a;@Auersperg2011b;
+@Auersperg2012;@Bastos2021;@BentleyCondit2010;@Borsari2005;@Goodman2018;
+@Heinsohn2017;@Janzen1976;@Lambert2015;@Lefebvre2002;@OHara2021]. Parrot tool 
+use thus provides an ideal test case for examining how robust sampling is in the 
 scientific literature. Second, parrots are highly popular as pets. Over 70% of 
 all extant parrot species are bred in the aviculture industry and kept as pets 
 worldwide [@Anderson2003;@Carrete2008;@Drews2001;@Kelly2014;@Li2014;@Su2015;
-@Young2012], enabling us to leverage the power of crowdsourcing on a social 
-media platform to search for evidence of tool use [@Nelson2013]. Third, detailed 
-data on relative brain sizes [@Flammer2001;@Iwaniuk2005;@Mazengenya2018;
-@Olkowicz2016;@Schuck2008;@Silva2017], feeding strategies [@Wilman2016], and 
-shared ancestry [@Jetz2012] exist for parrots, allowing us to fit the 
-statistical model implied by Figure \@ref(fig:plotDAG) to the entire parrot 
-order.
+@Young2012], enabling us to leverage the power of digital video platforms to 
+search for evidence of tool use [@Nelson2013]. Third, detailed data on relative
+brain sizes [@Flammer2001;@Iwaniuk2005;@Mazengenya2018;@Olkowicz2016;
+@Schuck2008;@Silva2017], feeding strategies [@Wilman2016], and shared ancestry
+[@Jetz2012] exist for parrots, allowing us to fit the statistical model implied
+by Figure \@ref(fig:plotDAG) to the entire parrot order.
 
-We first present the results from our crowdsourcing survey, in which we collated 
-videos of tool use in parrots from an online video platform. This survey reveals 
-a number of previously unidentified tool-using parrot species, which we map onto 
+We first present the results from our video survey, in which we collated videos
+of tool use in parrots from a digital video platform. This survey reveals a 
+number of previously unidentified tool-using parrot species, which we map onto 
 the phylogeny of the parrot order. We then describe our statistical model in 
 more detail, and use it to (_i_) rank further parrot species that are likely 
 unobserved tool users and (_ii_) re-examine key hypotheses regarding the 
@@ -220,9 +204,9 @@ evolutionary drivers and origins of tool use in parrots.
 
 # Results
 
-## Crowdsourcing reveals tool use in additional parrot species
+## Digital video platform reveals tool use in additional parrot species
 
-We surveyed the social media platform YouTube for video evidence of tool use in 
+We surveyed the digital media platform YouTube for video evidence of tool use in 
 parrots (see Methods for detailed search criteria). In our search, we used the 
 standard criteria for identifying tool use in the literature, defining "true" 
 tool use behaviour as the manipulation of an unattached object as an extension 
@@ -307,18 +291,18 @@ species. Combining both the video survey and the scientific literature, we can
 thus identify 28 tool-using parrot species overall (7%), compared to the 11 
 previously reported.
 
-(ref:plotPhylo1Caption) _Results of crowdsourcing video survey and phylogenetic 
-survival cure modelling mapped onto a maximum clade credibility phylogeny of the 
-parrot order._ Orange points in the inner ring indicate species observed in the 
-video survey, with point size scaled by the number of videos for each species 
-(note that three species observed only in the video survey are not present in 
-the phylogeny due to a lack of genomic data: _Psittacara erythrogenys_, 
-_Psittacus timneh_, and _Aratinga nenday_). Blue points in the outer ring 
-indicate species observed in the scientific literature, with point size scaled 
-by the number of papers published on each species. Yellow species names indicate 
-the top ten most likely tool-using species from our phylogenetic survival cure 
-model which were not observed in the scientific literature or the video survey. 
-Total _n_ = `r nrow(tar_read(d))` species.
+(ref:plotPhylo1Caption) _Results of video survey and phylogenetic survival cure
+modelling mapped onto a maximum clade credibility phylogeny of the parrot order._
+Orange points in the inner ring indicate species observed in the video survey,
+with point size scaled by the number of videos for each species (note that three
+species observed only in the video survey are not present in the phylogeny due
+to a lack of genomic data: _Psittacara erythrogenys_, _Psittacus timneh_, and 
+_Aratinga nenday_). Blue points in the outer ring indicate species observed in
+the scientific literature, with point size scaled by the number of papers 
+published on each species. Yellow species names indicate the top ten most likely
+tool-using species from our phylogenetic survival cure model which were not 
+observed in the scientific literature or the video survey. Total _n_ = 
+`r nrow(tar_read(d))` species.
 
 ```{r plotPhylo1, echo=F, fig.width=17, fig.height=15, fig.cap="(ref:plotPhylo1Caption)"}
 tar_read(plotPhylo1)
@@ -353,7 +337,7 @@ tool-using parrot species that may remain undetected.
 In addition to the 28 tool-using species identified in the literature and our 
 video survey, we fitted a Bayesian phylogenetic survival cure model to rank 
 further species that are likely to be undetected tool-users (i.e., tool-using 
-species with no tool use reported in the literature or in crowdsourced videos).
+species with no tool use reported in the literature or in videos).
 
 Survival cure models [@Amico2018], also known as split population 
 models [@Schmidt1989], are used to analyse the time to some event of interest 
@@ -370,12 +354,11 @@ separately.
 
 Our tool use problem has the same features. We are modelling a time-to-event; 
 specifically, the amount of "time" (i.e., observation opportunities measured as 
-the number of published papers or crowdsourced videos) until tool use is 
-identified. This is right-censored data because many species will not have had 
-tool use identified when we measure them. Moreover, we can assume that a certain 
-proportion of the population will never experience the event -- that is, they 
-are a non-tool-user and so we will never identify tool use no matter how long we 
-measure them for.
+the number of published papers or videos) until tool use is identified. This is
+right-censored data because many species will not have had tool use identified
+when we measure them. Moreover, we can assume that a certain proportion of the
+population will never experience the event -- that is, they are a non-tool-user
+and so we will never identify tool use no matter how long we measure them for.
 
 In our model, we infer the tool-using status of each species by allowing each 
 species to have their own probability of being a non-tool-user. Following our 
@@ -555,20 +538,20 @@ apa_table(
 Since the earliest anecdotes of parrots using tools by Wallace in the 1880s
 [@Wallace1869] and more systematic anecdotal reports in the 1970s [@Goodall1971], 
 only 11 parrot species (3% of all extant parrots) have been documented as tool 
-users in the scientific literature. Our study used crowdsourcing to identify 17 
-additional tool-using parrot species that are new to science, more than doubling 
-the overall count to 28 species (7%). These species consisted of cockatoos 
-(_Cacatuidae_), Old World parrots (_Psittacinae_), and neotropical parrots 
-(_Arinae_). Beyond the crowdsourcing survey, the strong phylogenetic signal in 
-our dataset allowed us to use phylogenetic information, along with other 
-variables, to infer the unobserved probabilities of tool use across the parrot 
-order. Our phylogenetic survival cure model incorporated information on 
-phylogenetic history, research effort, relative brain size, and feeding 
-specialisation to rank parrot species that were most likely to be undetected 
-tool users. The sum of probabilities from this model implied that between 15 
-and 41 of the species without observed evidence of tool use are likely to be 
-undetected tool users, suggesting that the true proportion of tool users may be
-as high as 17%.
+users in the scientific literature. Our study collated data from a digital video
+platform to identify 17 additional tool-using parrot species that are new to 
+science, more than doubling the overall count to 28 species (7%). These species 
+consisted of cockatoos (_Cacatuidae_), Old World parrots (_Psittacinae_), and 
+neotropical parrots (_Arinae_). Beyond the video survey, the strong 
+phylogenetic signal in our dataset allowed us to use phylogenetic information, 
+along with other variables, to infer the unobserved probabilities of tool use 
+across the parrot order. Our phylogenetic survival cure model incorporated
+information on phylogenetic history, research effort, relative brain size, and 
+feeding specialisation to rank parrot species that were most likely to be 
+undetected tool users. The sum of probabilities from this model implied that 
+between 15 and 41 of the species without observed evidence of tool use are 
+likely to be undetected tool users, suggesting that the true proportion of tool
+users may be as high as 17%.
 
 These findings have a number of important implications. First, our findings show 
 that current research effort in the scientific literature is insufficient to 
@@ -625,26 +608,26 @@ dietary specialisation, whereby species eating specific foods that require
 extractive foraging have higher cognitive ability and are especially prone to 
 using tools [@HenkeVonDerMalsburg2020].
 
-All instances of tool use in our crowdsourcing survey met the established
-criteria for tool use in the literature: the manipulation of an unattached 
-object as an extension of the animal's body to achieve a goal [@Shumaker2011].
-However, a striking feature of the dataset is that the 17 additional species
-identified in the video survey were exclusively observed using tools for
-self-scratching. While parrots in the wild use tools to achieve a variety of 
-goals, including extractive foraging and preening [@Goodman2018;@OHara2021],
-parrots in captivity only require tools to achieve the latter goal. Despite this
-difference in the type of tool use observed, self-scratching is nonetheless a 
-major category of animal tool use. Self-scratching also meets the definition for
-a more complex type of embodied tool use known as 'tooling', the deliberate 
-generation of a mechanical interface by using an object to manipulate another 
-target or surface [@Fragaszy2018]. This makes it difficult to dismiss
-self-scratching as unimportant: to do so would require a redefinition of
-tool-use in non-human animals. Moreover, the fact that we found strong 
-phylogenetic clustering of self-scratching tool use from the video survey with 
-other examples of tool use from the literature supports a common underlying 
-cognitive mechanism. In line with this, some of the species of parrots that use
-tools for self-scratching in captivity also use tools for other purposes in the 
-wild [@Auersperg2012;@Bastos2021;@Goodman2018;@OHara2021]. 
+All instances of tool use in our video survey met the established criteria for 
+tool use in the literature: the manipulation of an unattached object as an 
+extension of the animal's body to achieve a goal [@Shumaker2011]. However, a 
+striking feature of the dataset is that the 17 additional species identified in
+the video survey were exclusively observed using tools for self-scratching.
+While parrots in the wild use tools to achieve a variety of goals, including 
+extractive foraging and preening [@Goodman2018;@OHara2021], parrots in captivity
+only require tools to achieve the latter goal. Despite this difference in the
+type of tool use observed, self-scratching is nonetheless a major category of 
+animal tool use. Self-scratching also meets the definition for a more complex 
+type of embodied tool use known as 'tooling', the deliberate generation of a 
+mechanical interface by using an object to manipulate another target or surface
+[@Fragaszy2018]. This makes it difficult to dismiss self-scratching as 
+unimportant: to do so would require a redefinition of tool-use in non-human
+animals. Moreover, the fact that we found strong phylogenetic clustering of 
+self-scratching tool use from the video survey with other examples of tool use
+from the literature supports a common underlying cognitive mechanism. In line 
+with this, some of the species of parrots that use tools for self-scratching in
+captivity also use tools for other purposes in the wild [@Auersperg2012;
+@Bastos2021;@Goodman2018;@OHara2021]. 
 
 There was little evidence to suggest that the observations of self-scratching
 tool use in the video survey were merely unintentional accidents or explicitly 
@@ -661,51 +644,53 @@ represent unusual stereotypies of any single individual. Regarding the
 possibility of training or cueing from owners, over half of the videos contained 
 no evidence of human interaction aside from filming the behaviour. Humans only 
 handed parrots their tools in two of the videos, and none of the videos featured 
-owners directly rewarding tool use behaviours with food. Finally, the high 
-levels of phylogenetic signal in our data provide strong evidence that the 
-observations from our video survey reflect biologically-endowed capacities for 
-tool use rather than accidental or trained behaviours, which would likely appear 
-uniformly across the phylogeny.
+owners directly rewarding tool use behaviours with food. It is unlikely that 
+owners would specifically train parrots to scratch themselves with tools. 
+Finally, the high levels of phylogenetic signal in our data provide strong 
+evidence that the observations from our video survey reflect
+biologically-endowed capacities for tool use rather than accidental or trained
+behaviours, which would likely appear uniformly across the phylogeny.
 
 While missing data imputation is becoming more common in phylogenetic 
 analyses [@Debastiani2021], the important distinction between absence of 
 evidence and evidence of absence has not been given as much attention. Our 
 phylogenetic analysis provides one approach to this problem by distinguishing 
 between true absences of tool use and absences of tool use due to a lack of 
-research effort in the scientific literature or in crowdsourced videos. To 
-achieve this, we explicitly modelled the measurement of the outcome variable 
-along a research effort time series, such that species with lower research 
-effort in the literature or in videos were likely to be censored. In line with 
-our causal model, we also included relative brain size, feeding strategy, and 
-phylogenetic history as predictors of unobserved tool use. We encourage 
-researchers to test this model by directing future study efforts towards the 
-parrot species with the highest probabilities of being undetected tool-users. 
-Future work should also refine the causal model in Figure \@ref(fig:plotDAG) to 
-provide more certain estimates of tool use probabilities, either by including 
-additional predictor variables or modelling further causes of measurement error 
-in the taxonomic record, such as species abundance and geographic 
-accessibility [@Ducatez2014].
+research effort in the scientific literature or in videos. To achieve this, we 
+explicitly modelled the measurement of the outcome variable along a research 
+effort time series, such that species with lower research effort in the 
+literature or in videos were likely to be censored. In line with our causal 
+model, we also included relative brain size, feeding strategy, and phylogenetic
+history as predictors of unobserved tool use. We encourage researchers to test
+this model by directing future study efforts towards the parrot species with the
+highest probabilities of being undetected tool-users. Future work should also
+refine the causal model in Figure \@ref(fig:plotDAG) to provide more certain
+estimates of tool use probabilities, either by including additional predictor
+variables or modelling further causes of measurement error in the taxonomic
+record, such as species abundance and geographic accessibility [@Ducatez2014].
 
 In conclusion, we have shown that the scientific literature has insufficiently 
 captured the full distribution of tool use in the parrot order. Our 
-crowdsourcing survey more than doubled the number of known tool using parrot 
+digital video survey more than doubled the number of known tool using parrot 
 species from 11 to 28, and our phylogenetic model suggested that the true 
 proportion of parrot tool users could be as high as 17% of all species in this 
 order. These discoveries have implications for theories of the evolutionary 
 drivers and origins of tool use in parrots. Beyond parrot tool use, the 
-crowdsourcing and phylogenetic methods used in this study have the potential to 
-be applied to other rarely observed behaviours, including tool use in other 
-taxa [@Hunt2013], rhythmic entrainment in birds [@Benichov2016;@Patel2009;
-@tenCate2016;@Wilson2016], teasing behaviours in primates [@Eckert2020], and 
-tactical deception across all animals [@BroJorgensen2010;@Byrne1988;@Byrne1991]. 
-We hope that these methods will continue to uncover a diverse array of ephemeral 
-behaviours that have as yet gone undetected in the scientific literature.
+methods used in this study have the potential to be applied to other rarely 
+observed behaviours, including tool use in other taxa [@Hunt2013], rhythmic 
+entrainment in birds [@Benichov2016;@Patel2009;@tenCate2016;@Wilson2016],
+teasing behaviours in primates [@Eckert2020], and tactical deception across all
+animals [@BroJorgensen2010;@Byrne1988;@Byrne1991]. We hope that these methods
+will continue to uncover a diverse array of ephemeral behaviours that have as
+yet gone undetected in the scientific literature.
 
 # Methods
 
 ## Video searches and coding
 
-Our video search was conducted on YouTube in July 2020. Search terms included 
+Our video search was conducted on YouTube in July 2020. Searches were conducted
+manually by the first author over a month-long period, using the same IP address
+and not logged in with a YouTube user account. Search terms included 
 "parrot using tool" and variants (e.g., "macaw using tool", "lorikeet using 
 tool", "parakeet using tool"), "tool use in parrot", "parrot tool use", "parrot 
 scratching itself" (included after we found several videos demonstrating 
@@ -717,7 +702,8 @@ as the species’ common name(s) + "scratching". We also searched for translatio
 of the terms "parrot tool use" and "parrot scratching" in languages for all 
 countries where bird ownership was reported as >5% [@GlobalGfkSurvey], namely, 
 Turkish, Czech, Polish, French, Italian, Dutch, German, Russian, Spanish, 
-Portuguese, and Mandarin.
+Portuguese, and Mandarin. Browser search histories were not cleared between
+searches.
 
 When we found a relevant video, we also searched for similar content uploaded by 
 the same person/channel. For each YouTube search conducted, we watched all 
@@ -749,6 +735,13 @@ within each video. Our complete dataset also includes the name for each video,
 link, subject name, sex (as declared by owner, as most parrot species are not 
 sexually dimorphic), publishing date, and dates found and coded.
 
+Since YouTube is constantly growing and evolving in both its uploaded content 
+and its proprietary recommendation algorithms, the same search strategy today 
+would not return exactly the same videos as our search in July 2020. It is 
+possible that some videos have since been deleted or more videos of parrot tool
+use have since been uploaded. However, this does not affect our conclusions
+about the number of parrot species found to use tools in our initial search.
+
 ## Data for parrot species
 
 We collected data for 194 parrot species (Supplementary Figures
@@ -769,18 +762,17 @@ vasa_. For the latter, we used values for the closely related _Coracopsis
 nigra_. The other two species were excluded from the final dataset.
 
 For modelling purposes, we coded research effort in both the scientific 
-literature and the crowdsourced videos. For the scientific literature, we 
+literature and the YouTube videos. For the scientific literature, we 
 operationalised research effort as the number of papers published for each 
 species' Latin name up to and including the first paper containing tool use for 
 that species. If no tool use had been identified in the scientific literature 
 for a species, then we coded the total number of papers published to date. We 
 used the scientific database Scopus for coding the number of published papers. 
-For the crowdsourced videos, we coded research effort as the number of search 
-hits for each species on YouTube. If tool use had been identified on YouTube, we 
-estimated the number of search hits when the first video of tool use was 
-published on YouTube, assuming linear growth of search hits since the inception 
-of YouTube. If tool use had not been identified, we used the current number of 
-search hits.
+For the videos, we coded research effort as the number of search hits for each
+species on YouTube. If tool use had been identified on YouTube, we estimated the
+number of search hits when the first video of tool use was published on YouTube,
+assuming linear growth of search hits since the inception of YouTube. If tool
+use had not been identified, we used the current number of search hits.
 
 For phylogenetic data, we used the phylogenetic tool at www.birdtree.org
 [@Jetz2012] to compile 1000 posterior draws of phylogenetic trees for 174 of the 
@@ -800,12 +792,12 @@ phylogenetic uncertainty.
 
 To infer unobserved probabilities of tool use across parrots, we proposed a 
 causal model of observed tool use (Figure \@ref(fig:plotDAG)). We assumed that 
-observed tool use in the scientific literature and in the crowdsourced videos is 
-caused by both the unobserved presence or absence of tool use and research 
-effort, proxied by the number of papers published on a species and the number of 
-videos published on a species. Tool users are more likely to be observed if they 
-are well studied, but understudied tool users may go undetected. In addition, 
-based on theory, we also assumed that unobserved tool use is caused by feeding 
+observed tool use in the scientific literature and in the videos is caused by 
+both the unobserved presence or absence of tool use and research effort, proxied
+by the number of papers published on a species and the number of videos
+published on a species. Tool users are more likely to be observed if they are
+well studied, but understudied tool users may go undetected. In addition, based
+on theory, we also assumed that unobserved tool use is caused by feeding 
 strategy and relative brain size [@Lefebvre2004;@Lefebvre1997;@Lefebvre2002;
 @Ducatez2015;@Sol2005;@Overington2011;@HenkeVonDerMalsburg2020]. Finally, we 
 assumed that shared phylogenetic history causes unobserved confounding and 
@@ -823,19 +815,19 @@ published before and up to tool use identification for species $i$ (or, if tool
 use has not been identified, the total number of papers published for species 
 $i$) and $\text{T}_{\text{Lit},i}$ as a binary variable stating whether (1) or 
 not (0) tool use has yet been observed in the scientific literature for species 
-$i$. For the crowdsourced videos, we declare $\text{N}_{\text{Vid},i}$ as the 
+$i$. For the videos, we declare $\text{N}_{\text{Vid},i}$ as the 
 number of videos published before and up to tool use identification for species 
 $i$ (or, if tool use has not been identified, the total number of videos 
 published for species $i$) and $\text{T}_{\text{Vid},i}$ as a binary variable 
 stating whether (1) or not (0) tool use has yet been observed in the 
-crowdsourced videos for species $i$. Additionally, $\text{F}_i$ and 
+videos for species $i$. Additionally, $\text{F}_i$ and 
 $\text{EQ}_i$ are feeding strategy and encephalisation quotient values for 
 species $i$ and we have a phylogenetic distance matrix $D$ that describes the 
 patristic distances between all parrot species.
 
 We assume that species $i$ is a non-tool-user with some 
 probability $p_i$. We also assume that tool use is identified in the scientific 
-literature and the crowdsourced videos at constant rates $\lambda_{\text{Lit}}$ 
+literature and the videos at constant rates $\lambda_{\text{Lit}}$ 
 and $\lambda_{\text{Vid}}$ following exponential survival functions. Given these 
 assumptions, we can then describe the different ways in which variables 
 $\text{N}_\text{Lit}$ and $\text{N}_\text{Vid}$ can be distributed. Focusing on 
@@ -859,7 +851,7 @@ Together, then, the likelihood for $\text{N}_{\text{Lit},i}$ is:
 \end{align}
 
 The Exponential-CCDF function allows for the censored nature of the data. The 
-same data generating process is assumed to underlie the crowdsourced videos.
+same data generating process is assumed to underlie the videos.
 
 We define the mixture likelihood $\text{SurvivalCure}$ as the distribution 
 above, with parameters $p$ (the probability of being a non-tool-user) 
