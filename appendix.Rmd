@@ -4,7 +4,7 @@
 \renewcommand{\thetable}{S\arabic{table}} \setcounter{table}{0}
 \renewcommand{\theequation}{S\arabic{equation}} \setcounter{equation}{0}
 
-# **Supplementary Information**
+# **Supplemental Information**
 
 \setcounter{page}{1}
 \centering
@@ -21,7 +21,7 @@
 \normalsize
 \newpage
 
-## Supplementary Figures
+## Supplemental Figures
 
 (ref:plotSurvCure3Caption) _Median posterior probabilities of undetected tool use for each parrot species without observed evidence of tool use from reduced model._ This reduced version of the phylogenetic survival cure model does not contain relative brain size or feeding strategy as predictors, nor does it contain any phylogenetic covariance. The only information included in the model is the number of papers published and the number of YouTube search hits for each species. Each point is a parrot species without observed evidence of tool use, and the colour of the points scales with the probability of undetected tool use. All else being equal, those species with fewer published papers and fewer YouTube search hits have a higher probability of being undetected tool users.
 

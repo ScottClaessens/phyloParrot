@@ -1,6 +1,6 @@
-# Crowdsourcing and phylogenetic modelling reveal parrot tool use is not rare
+# Digital video platforms and phylogenetic modelling reveal parrot tool use is not rare
 
-Using crowdsourcing and phylogenetic modelling to identify tool use in parrots.
+Using YouTube and phylogenetic modelling to identify tool use in parrots.
 
 ## Getting started
 

@@ -53,7 +53,7 @@ list(
   tar_target(MCCphylogeny, mcc(phylogeny)),
   # load crowdsourcing data
   tar_target(crowdsourcing_file, "data/parrotToolUseYoutubeSurveyData.xlsx"),
-  tar_target(crowdData, read_xlsx(crowdsourcing_file, sheet = 1)),
+  tar_target(crowdData, read_xlsx(crowdsourcing_file, sheet = 1, range = "A1:O117")),
   # load data
   tar_target(data_file, "data/parrotData.csv", format = "file"),
   tar_target(litCount_file, "data/parrotLiteratureSearch.csv", format = "file"),

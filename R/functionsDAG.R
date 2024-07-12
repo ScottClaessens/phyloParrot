@@ -35,7 +35,7 @@ drawDAG <- function() {
   out <-
     out +
     geom_dag_point(
-      data = function(x) filter(x, name %in% c("Tool use\n(unobserved)", "Unobserved\nconfounds")),
+      data = function(x) dplyr::filter(x, name %in% c("Tool use\n(unobserved)", "Unobserved\nconfounds")),
       alpha = 0.5, size = 35, show.legend = FALSE, colour = "lightgrey"
     ) +
     geom_dag_text(colour = "black") +

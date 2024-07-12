@@ -5,79 +5,71 @@ Running under: Windows 10 x64 (build 19045)
 Matrix products: default
 
 locale:
-[1] LC_COLLATE=English_New Zealand.utf8  LC_CTYPE=English_New Zealand.utf8   
-[3] LC_MONETARY=English_New Zealand.utf8 LC_NUMERIC=C                        
-[5] LC_TIME=English_New Zealand.utf8    
+[1] LC_COLLATE=English_United Kingdom.utf8 
+[2] LC_CTYPE=English_United Kingdom.utf8   
+[3] LC_MONETARY=English_United Kingdom.utf8
+[4] LC_NUMERIC=C                           
+[5] LC_TIME=English_United Kingdom.utf8    
 
 attached base packages:
 [1] parallel  stats     graphics  grDevices utils     datasets  methods  
 [8] base     
 
 other attached packages:
- [1] tidybayes_3.0.2     sdamr_0.2.0         scales_1.2.1       
- [4] rethinking_2.21     cmdstanr_0.5.3      rstan_2.26.13      
- [7] StanHeaders_2.26.13 reshape2_1.4.4      readxl_1.4.1       
-[10] phytools_1.0-3      maps_3.4.0          phangorn_2.9.0     
-[13] papaja_0.1.1.9001   tinylabels_0.2.3    magick_2.7.3       
-[16] ggtree_3.4.2        ggstance_0.3.6      ggridges_0.5.3     
-[19] ggdag_0.2.6         geiger_2.0.10       dagitty_0.3-1      
-[22] cowplot_1.1.1       brms_2.16.0         Rcpp_1.0.9         
-[25] ape_5.6-2           future.callr_0.8.0  future_1.27.0      
-[28] forcats_0.5.2       stringr_1.4.1       dplyr_1.0.10       
-[31] purrr_0.3.4         readr_2.1.2         tidyr_1.2.1        
-[34] tibble_3.1.8        ggplot2_3.4.1       tidyverse_1.3.2    
-[37] tarchetypes_0.7.1   targets_0.13.5     
+ [1] tidybayes_3.0.2    sdamr_0.2.0        scales_1.2.1       rethinking_2.21   
+ [5] cmdstanr_0.8.0     rstan_2.32.6       StanHeaders_2.32.9 reshape2_1.4.4    
+ [9] readxl_1.4.3       phytools_1.0-3     maps_3.4.0         phangorn_2.11.1   
+[13] papaja_0.1.1.9001  tinylabels_0.2.3   magick_2.7.3       ggtreeExtra_1.6.0 
+[17] ggtree_3.4.2       ggstance_0.3.6     ggridges_0.5.3     ggdag_0.2.6       
+[21] geiger_2.0.10      dagitty_0.3-1      cowplot_1.1.1      brms_2.21.0       
+[25] Rcpp_1.0.12        ape_5.7-1          future.callr_0.8.0 future_1.27.0     
+[29] lubridate_1.9.3    forcats_1.0.0      stringr_1.5.0      dplyr_1.1.4       
+[33] purrr_1.0.2        readr_2.1.5        tidyr_1.3.0        tibble_3.2.1      
+[37] ggplot2_3.4.1      tidyverse_2.0.0    tarchetypes_0.9.0  targets_1.6.0     
 
 loaded via a namespace (and not attached):
-  [1] utf8_1.2.2              tidyselect_1.1.2        lme4_1.1-30            
-  [4] htmlwidgets_1.5.4       grid_4.2.1              combinat_0.0-8         
-  [7] munsell_0.5.0           base64url_1.4           effectsize_0.8.2       
- [10] codetools_0.2-18        DT_0.24                 miniUI_0.1.1.1         
- [13] withr_2.5.0             Brobdingnag_1.2-7       colorspace_2.0-3       
- [16] knitr_1.40              rstudioapi_0.14         stats4_4.2.1           
- [19] bayesplot_1.9.0         listenv_0.8.0           emmeans_1.8.0          
- [22] mnormt_2.1.0            datawizard_0.6.5        farver_2.1.1           
- [25] bridgesampling_1.1-2    treeio_1.20.2           coda_0.19-4            
- [28] parallelly_1.32.1       vctrs_0.6.1             generics_0.1.3         
- [31] TH.data_1.1-1           clusterGeneration_1.3.7 xfun_0.39              
- [34] R6_2.5.1                markdown_1.1            gamm4_0.2-6            
- [37] projpred_2.2.1          gridGraphics_0.5-1      assertthat_0.2.1       
- [40] promises_1.2.0.1        multcomp_1.4-20         googlesheets4_1.0.1    
- [43] gtable_0.3.1            globals_0.16.0          processx_3.7.0         
- [46] tidygraph_1.2.2         sandwich_3.0-2          rlang_1.1.0            
- [49] scatterplot3d_0.3-41    splines_4.2.1           lazyeval_0.2.2         
- [52] gargle_1.2.0            broom_1.0.1             checkmate_2.1.0        
- [55] inline_0.3.19           yaml_2.3.5              abind_1.4-5            
- [58] modelr_0.1.9            threejs_0.3.3           crosstalk_1.2.0        
- [61] backports_1.4.1         httpuv_1.6.5            tensorA_0.36.2         
- [64] tools_4.2.1             ggplotify_0.1.0         ellipsis_0.3.2         
- [67] posterior_1.3.0         plyr_1.8.7              base64enc_0.1-3        
- [70] ps_1.7.1                prettyunits_1.1.1       deSolve_1.33           
- [73] zoo_1.8-10              haven_2.5.1             fs_1.5.2               
- [76] magrittr_2.0.3          data.table_1.14.2       ggdist_3.2.0           
- [79] colourpicker_1.1.1      reprex_2.0.2            googledrive_2.0.0      
- [82] mvtnorm_1.1-3           matrixStats_0.62.0      arrayhelpers_1.1-0     
- [85] patchwork_1.1.2         hms_1.1.2               shinyjs_2.1.0          
- [88] mime_0.12               evaluate_0.16           xtable_1.8-4           
- [91] shinystan_2.6.0         shape_1.4.6             gridExtra_2.3          
- [94] rstantools_2.2.0        compiler_4.2.1          V8_4.2.1               
- [97] crayon_1.5.1            minqa_1.2.4             htmltools_0.5.3        
-[100] ggfun_0.0.6             mgcv_1.8-40             later_1.3.0            
-[103] tzdb_0.3.0              aplot_0.1.6             expm_0.999-6           
-[106] RcppParallel_5.1.5      lubridate_1.8.0         DBI_1.1.3              
-[109] dbplyr_2.2.1            subplex_1.8             MASS_7.3-58.1          
-[112] boot_1.3-28             Matrix_1.4-1            cli_3.4.1              
-[115] quadprog_1.5-8          insight_0.18.8          igraph_1.3.4           
-[118] pkgconfig_2.0.3         numDeriv_2016.8-1.1     svUnit_1.0.6           
-[121] xml2_1.3.3              dygraphs_1.1.1.6        estimability_1.4.1     
-[124] rvest_1.0.3             yulab.utils_0.0.5       distributional_0.3.0   
-[127] callr_3.7.2             digest_0.6.29           parameters_0.20.0      
-[130] rmarkdown_2.23          cellranger_1.1.0        fastmatch_1.1-3        
-[133] tidytree_0.4.0          curl_4.3.2              shiny_1.7.2            
-[136] gtools_3.9.3            nloptr_2.0.3            lifecycle_1.0.3        
-[139] nlme_3.1-159            jsonlite_1.8.2          fansi_1.0.3            
-[142] pillar_1.8.1            lattice_0.20-45         loo_2.5.1              
-[145] fastmap_1.1.0           httr_1.4.4              plotrix_3.8-2          
-[148] pkgbuild_1.3.1          survival_3.4-0          glue_1.6.2             
-[151] xts_0.12.1              bayestestR_0.13.0       shinythemes_1.2.0      
-[154] stringi_1.7.8          
+  [1] utf8_1.2.4              tidyselect_1.2.1        grid_4.2.1             
+  [4] combinat_0.0-8          munsell_0.5.0           base64url_1.4          
+  [7] ragg_1.2.6              codetools_0.2-18        effectsize_0.8.2       
+ [10] withr_3.0.0             Brobdingnag_1.2-7       colorspace_2.0-3       
+ [13] knitr_1.46              rstudioapi_0.15.0       stats4_4.2.1           
+ [16] bayesplot_1.9.0         listenv_0.8.0           labeling_0.4.2         
+ [19] emmeans_1.8.0           secretbase_0.5.0        mnormt_2.1.0           
+ [22] polyclip_1.10-0         farver_2.1.1            datawizard_0.6.5       
+ [25] bridgesampling_1.1-2    coda_0.19-4             parallelly_1.32.1      
+ [28] vctrs_0.6.5             treeio_1.20.2           generics_0.1.3         
+ [31] TH.data_1.1-1           clusterGeneration_1.3.7 xfun_0.44              
+ [34] timechange_0.3.0        R6_2.5.1                graphlayouts_0.8.1     
+ [37] gridGraphics_0.5-1      multcomp_1.4-20         ggraph_2.1.0           
+ [40] gtable_0.3.1            globals_0.16.0          processx_3.8.4         
+ [43] tidygraph_1.2.2         sandwich_3.0-2          rlang_1.1.3            
+ [46] systemfonts_1.0.5       scatterplot3d_0.3-41    splines_4.2.1          
+ [49] lazyeval_0.2.2          checkmate_2.3.1         inline_0.3.19          
+ [52] yaml_2.3.8              abind_1.4-5             backports_1.4.1        
+ [55] tensorA_0.36.2.1        tools_4.2.1             ggplotify_0.1.0        
+ [58] ellipsis_0.3.2          posterior_1.5.0         plyr_1.8.7             
+ [61] ps_1.7.6                prettyunits_1.2.0       viridis_0.6.2          
+ [64] deSolve_1.33            zoo_1.8-10              ggrepel_0.9.3          
+ [67] fs_1.6.4                magrittr_2.0.3          data.table_1.15.4      
+ [70] ggdist_3.2.0            mvtnorm_1.1-3           ggnewscale_0.4.7       
+ [73] matrixStats_1.3.0       hms_1.1.2               patchwork_1.1.2        
+ [76] evaluate_0.23           arrayhelpers_1.1-0      xtable_1.8-4           
+ [79] gridExtra_2.3           shape_1.4.6             rstantools_2.2.0       
+ [82] compiler_4.2.1          V8_4.2.1                crayon_1.5.2           
+ [85] htmltools_0.5.6.1       ggfun_0.0.6             tzdb_0.3.0             
+ [88] aplot_0.1.6             expm_0.999-6            RcppParallel_5.1.7     
+ [91] nanonext_1.1.1          DBI_1.1.3               tweenr_2.0.1           
+ [94] subplex_1.8             MASS_7.3-58.1           boot_1.3-28            
+ [97] Matrix_1.4-1            cli_3.6.2               quadprog_1.5-8         
+[100] insight_0.18.8          igraph_2.0.3            pkgconfig_2.0.3        
+[103] numDeriv_2016.8-1.1     svUnit_1.0.6            QuickJSR_1.2.0.9000    
+[106] estimability_1.4.1      yulab.utils_0.0.5       distributional_0.4.0   
+[109] callr_3.7.6             digest_0.6.33           parameters_0.20.0      
+[112] rmarkdown_2.25          cellranger_1.1.0        fastmatch_1.1-4        
+[115] tidytree_0.4.0          curl_5.1.0              lifecycle_1.0.4        
+[118] nlme_3.1-159            jsonlite_1.8.7          viridisLite_0.4.1      
+[121] fansi_1.0.6             pillar_1.9.0            lattice_0.20-45        
+[124] loo_2.5.1               fastmap_1.1.1           plotrix_3.8-2          
+[127] pkgbuild_1.4.2          survival_3.4-0          glue_1.7.0             
+[130] bayestestR_0.13.0       ggforce_0.3.4           stringi_1.7.12         
+[133] textshaping_0.3.7      
