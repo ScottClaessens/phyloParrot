@@ -197,8 +197,8 @@ Ornstein-Uhlenbeck Gaussian process [@McElreath2020] to model phylogenetic
 covariance. Below, we specify the full model with priors:
 
 \begin{align}
-N_{\text{Lit},i} &\sim \text{SurvivalCure}(\lambda_{\text{Lit},i}, p_{i}) \\
-N_{\text{Vid},i} &\sim \text{SurvivalCure}(\lambda_{\text{Vid},i}, p_{i}) \nonumber \\
+\text{T}_{\text{Lit},i}, \text{N}_{\text{Lit},i} &\sim \text{SurvivalCure}(\lambda_{\text{Lit},i}, p_{i}) \\
+\text{T}_{\text{Vid},i}, \text{N}_{\text{Vid},i} &\sim \text{SurvivalCure}(\lambda_{\text{Vid},i}, p_{i}) \nonumber \\
 \lambda_{\text{Lit},i} &= 1 / \text{exp}(\gamma_\text{Lit}) \nonumber \\
 \lambda_{\text{Vid},i} &= 1 / \text{exp}(\gamma_\text{Vid}) \nonumber \\
 \text{logit}(p_{i}) &= \alpha_{\text{FEEDING}[i]} + \beta\text{EQ}_{i} +  k_{\text{SPECIES}[i]} \nonumber \\
