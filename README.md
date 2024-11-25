@@ -1,4 +1,4 @@
-# Evidence of self-care tooling on digital video platforms and phylogenetic modelling reveal parrot tool use is not rare
+# New evidence of self-care tooling and phylogenetic modelling reveal parrot tool use is not rare
 
 Using YouTube and phylogenetic modelling to identify tool use in parrots.
 
