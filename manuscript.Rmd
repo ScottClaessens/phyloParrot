@@ -112,7 +112,7 @@ higher relative brain size as a likely precondition for tool using
 capabilities [@Audet2024;@Lefebvre2002;@Lefebvre1997;@Lefebvre2004]. These 
 researchers argue that larger brains are better able to integrate visual and 
 somatosensory information when innovating novel behaviours, such as tool use, 
-in changing environments [@Sol2005;@Sol2009] (but see ref [@Kaplan2020]). 
+in changing environments [@Sol2005;@Sol2009] (but see Kaplan[@Kaplan2020]). 
 Similarly, researchers have used existing reports of tool use in birds to debate
 the roles of generalist versus specialist feeding strategies in driving the 
 evolution of tool use, with some arguing that feeding generalists require 
@@ -132,12 +132,12 @@ observation may lead researchers to miss true instances of tool behaviours and
 thus draw premature conclusions about the evolutionary drivers and origins of 
 tool use. Researchers are keenly aware of this problem and have attempted to 
 deal with it in different ways, such as controlling for the number of scientific 
-papers published on different species. But previous work has not yet attempted 
-to quantify and explicitly model the relationship between actual tool-using 
-behaviour and what is reported in the scientific literature. If more tool-using 
-species exist than previously thought, this could have important implications 
-for theories of the evolutionary drivers and origins of tool use and for our 
-understanding of how rare this behaviour actually is.
+papers published on different species. However, previous work has not yet 
+attempted to quantify and explicitly model the relationship between actual
+tool-using behaviour and what is reported in the scientific literature. If more
+tool-using species exist than previously thought, this could have important
+implications for theories of the evolutionary drivers and origins of tool use
+and for our understanding of how rare this behaviour actually is.
 
 One potentially powerful method for quantifying actual rates of rare animal 
 behaviours is by collating evidence of the behaviours from digital video 
@@ -300,7 +300,7 @@ in any species of Psittaculidae, despite this family containing some of the most
 commonly kept pet species, including lovebirds, lorikeets, and Asian parakeet 
 species. Combining both the video survey and the scientific literature, we can 
 thus identify 28 total parrot species (7%) capable of true tool use as defined 
-by ref [@Shumaker2011], compared to the 11 previously reported.
+by Shumaker et al.[@Shumaker2011], compared to the 11 previously reported.
 
 (ref:plotPhylo1Caption) _Results of video survey and phylogenetic survival cure
 modelling mapped onto a maximum clade credibility phylogeny of the parrot order._
@@ -607,14 +607,14 @@ evolutionary drivers and origins of technical intelligence in the parrot order.
 
 Our data raise the question of why such a wide range of parrot species exhibit 
 self-scratching tool use behaviours in captive environments. It is possible that 
-these self-care behaviours emerge more often in captivity because pet parrots 
-are kept with few or no conspecifics, and therefore must innovate tool use to 
-preen inaccessible body areas, such as their heads and necks, which would have 
-been otherwise preened by flock members. This may indicate that human 
-interaction and allopreening in the absence of a conspecific is insufficient for
-pet parrots, as suggested by studies on welfare and chronic stress in lone 
-captive parrots [@Aydinonat2014;@Engebretson2006;@Mason2010;@Meehan2003]. Beyond 
-social isolation in captivity, other factors that reduce preening efficacy by an 
+these self-care behaviours emerge in captivity because pet parrots are kept with
+few or no conspecifics, and therefore must innovate tool use to preen
+inaccessible body areas, such as their heads and necks, which would have been
+otherwise preened by flock members. This may indicate that human interaction and
+allopreening in the absence of a conspecific is insufficient for pet parrots, as
+suggested by studies on welfare and chronic stress in lone captive parrots 
+[@Aydinonat2014;@Engebretson2006;@Mason2010;@Meehan2003]. Beyond social
+isolation in captivity, other factors that reduce preening efficacy by an 
 individual might also lead to the innovation of self-care tooling: for example,
 a captive kea housed with conspecifics in a naturalistic environment was shown
 to have innovated the use of a pebble tool for self-care likely as a consequence 
@@ -625,15 +625,21 @@ order to manifest in any environment, whether that be captive or in the wild.
 The fact that only a subset of parrot species are innovating self-care tooling 
 in response to their captive setting and that self-care tooling is predicted by 
 phylogenetic history and encephalisation strongly suggests that self-scratching 
-indicates a capacity to produce tool use, which is expressed in different ways 
-in captive and wild settings.
+indicates a capacity to produce tool use, which may be expressed in different 
+ways in captive and wild settings. Interestingly, at present there is no
+evidence to suggest that parrots exhibit self-scratching tool use in the wild.
+This could reflect a true absence of this behaviour in wild parrots, which may
+not experience the same environmental pressures that lead to the emergence of
+self-scratching in captivity. On the other hand, it could also reflect a false
+negative, with self-scratching occurring sufficiently infrequently or
+inconspicuously in wild populations that it remains unobserved or unreported.
 
-Our findings have a number of important implications. First, our findings show 
-that current research effort in the scientific literature is insufficient to 
-capture the real world occurrence of parrot tool use. If the scientific 
-literature had sampled the natural world sufficiently, we would expect to see 
-close correspondence between those species reported as tool users in the 
-literature and those species the public have filmed performing tool use. 
+Our findings have a number of important implications. First, our findings
+suggest that current research effort in the scientific literature is
+insufficient to capture the real world occurrence of parrot tool use. If the
+scientific literature had sampled the natural world sufficiently, we would
+expect to see close correspondence between those species reported as tool users
+in the literature and those species the public have filmed performing tool use. 
 Instead, we discovered a large discrepancy between these two data sources, both 
 in the prevalence of tool use and the species identified, likely due to the 
 numerous difficulties inherent to conducting observations in the wild. This 
@@ -674,16 +680,36 @@ fine-grained measures like whole neuron count [@Sol2022] and there is no reason
 to think that measurement error would produce the consistent patterns across our
 study and prior work. To understand the causal mechanisms responsible for these
 relationships, we encourage further work on the specific neural correlates of 
-technical intelligence in parrots, e.g., [@Alvarez2020]. In our phylogenetic 
-model, we also found that tool use was somewhat more likely among feeding 
-generalists compared to feeding specialists, although this difference was 
-uncertain. This trend supports previous suggestions that increased cognitive 
-abilities and technical innovation rates are required to expand a generalist 
-species' dietary niche [@HenkeVonDerMalsburg2020;@HenkeVonDerMalsburg2021;
-@Ducatez2015]. However, the trend contradicts theories linking tool use to 
-dietary specialisation, whereby species eating specific foods that require 
-extractive foraging have higher cognitive ability and are especially prone to 
-using tools [@HenkeVonDerMalsburg2020].
+technical intelligence in parrots, e.g., Cabrera-Álvarez and Clayton
+[@Alvarez2020]. In our phylogenetic model, we also found that tool use was 
+somewhat more likely among feeding generalists compared to feeding specialists, 
+although this difference was uncertain. This trend supports previous suggestions
+that increased cognitive abilities and technical innovation rates are required
+to expand a generalist species' dietary niche [@HenkeVonDerMalsburg2020;
+@HenkeVonDerMalsburg2021;@Ducatez2015]. However, the trend contradicts theories
+linking tool use to dietary specialisation, whereby species eating specific
+foods that require extractive foraging have higher cognitive ability and are
+especially prone to using tools [@HenkeVonDerMalsburg2020].
+
+While missing data imputation is becoming more common in phylogenetic 
+analyses [@Debastiani2021], the important distinction between absence of 
+evidence and evidence of absence has not been given as much attention. Our 
+phylogenetic analysis provides one approach to this problem by distinguishing 
+between true absences of tool use and absences of tool use due to a lack of 
+research effort in the scientific literature or in videos. To achieve this, we 
+explicitly modelled the measurement of the outcome variable along a research 
+effort time series, such that species with lower research effort in the 
+literature or in videos were likely to be censored. In line with our causal 
+model, we also included relative brain size, feeding strategy, and phylogenetic
+history as predictors of unobserved tool use. We encourage researchers to test
+this model by directing future study efforts towards the parrot species with the
+highest probabilities of being undetected tool-users. Future work should also
+refine the causal model in Figure \@ref(fig:plotDAG) to provide more certain
+estimates of tool use probabilities, either by including additional predictor
+variables or modelling further causes of measurement error in the taxonomic
+record, such as species abundance and geographic accessibility [@Ducatez2014].
+
+## Limitations of study
 
 A potential concern with data originating from digital video platforms is its 
 reliability [@Auersperg2020;@DechaumeMoncharmont2020;@Farrar2020;@Nelson2013;@Sandor2020;@vonBayern2020]. 
@@ -705,31 +731,15 @@ possibility of training or cueing from owners, over half of the videos contained
 no evidence of human interaction aside from filming the behaviour. Humans only 
 handed parrots their tools in two of the videos, and none of the videos featured 
 owners directly rewarding tool use behaviours with food. It is unlikely that 
-owners would specifically train parrots to scratch themselves with tools. 
-Finally, the high levels of phylogenetic signal in our data provide strong 
-evidence that the observations from our video survey reflect
+a range of owners would independently train parrots to scratch themselves with
+tools. Finally, the high levels of phylogenetic signal in our data provide
+strong evidence that the observations from our video survey reflect
 biologically-endowed capacities for tool use rather than accidental or trained
 behaviours, which would likely appear uniformly across the phylogeny. 
 Nevertheless, future work using data such as this should choose target 
 behaviours carefully and examine videos for evidence of training or cueing.
 
-While missing data imputation is becoming more common in phylogenetic 
-analyses [@Debastiani2021], the important distinction between absence of 
-evidence and evidence of absence has not been given as much attention. Our 
-phylogenetic analysis provides one approach to this problem by distinguishing 
-between true absences of tool use and absences of tool use due to a lack of 
-research effort in the scientific literature or in videos. To achieve this, we 
-explicitly modelled the measurement of the outcome variable along a research 
-effort time series, such that species with lower research effort in the 
-literature or in videos were likely to be censored. In line with our causal 
-model, we also included relative brain size, feeding strategy, and phylogenetic
-history as predictors of unobserved tool use. We encourage researchers to test
-this model by directing future study efforts towards the parrot species with the
-highest probabilities of being undetected tool-users. Future work should also
-refine the causal model in Figure \@ref(fig:plotDAG) to provide more certain
-estimates of tool use probabilities, either by including additional predictor
-variables or modelling further causes of measurement error in the taxonomic
-record, such as species abundance and geographic accessibility [@Ducatez2014].
+## Conclusion
 
 In conclusion, we have shown that the scientific literature has insufficiently 
 captured the full distribution of tool use in the parrot order. Our 
@@ -752,9 +762,10 @@ yet gone undetected in the scientific literature.
 
 # Acknowledgements
 
-This project was made possible through the support of a grant from the Templeton 
-World Charity Foundation (A.H.T., X.J.N.). The authors would like to thank 
-Daniel Sol for providing feedback on a previous version of the manuscript.
+This project was made possible through the support of grants from the Templeton 
+World Charity Foundation (A.H.T., X.J.N., TWCF-2018-0310, TWCF-2024-33225). The
+authors would like to thank Daniel Sol for providing feedback on a previous
+version of the manuscript.
 
 # Author Contributions
 

@@ -8,7 +8,7 @@
 
 \setcounter{page}{1}
 \centering
-\noindent \hspace*{5mm} \small Digital video platforms and phylogenetic modelling reveal parrot tool use is not rare \newline
+\noindent \hspace*{5mm} \small New evidence of self-care tooling and phylogenetic modelling reveal parrot tool use is not rare \newline
 \hspace*{1cm} \small Amalia P. M. Bastos\textsuperscript{1,2}, Scott Claessens\textsuperscript{2}, Ximena J. Nelson\textsuperscript{3}, David Welch\textsuperscript{4}, \newline
 \hspace*{25mm} Quentin D. Atkinson\textsuperscript{2}, Alex H. Taylor\textsuperscript{2,3,5,6} \newline
 \raggedright
@@ -58,7 +58,8 @@ tar_read(plotSurvCure6)
 (ref:plotComparisonCaption) _Comparing results between the survival cure model and models fitted to the pre-survey and post-survey data without any survival cure component._ Densities are full posterior distributions from three separate models iterated over 100 posterior parrot phylogenies. Points represent posterior medians, and lines represent 50% and 95% credible intervals.
 
 ```{r plotComparison, echo=FALSE, warning=FALSE, fig.width=8, fig.height=4, fig.cap="(ref:plotComparisonCaption)"}
-tar_read(plotComparison)
+#tar_read(plotComparison)
+knitr::include_graphics("figures/comparison.pdf")
 ```
 
 \newpage
@@ -66,7 +67,8 @@ tar_read(plotComparison)
 (ref:plotASR1Caption) _Results of exploratory ancestral state reconstruction analysis fitted to pre-video-survey data, represented on a maximum clade credibility tree._ Tip nodes represent the presence (red) or absence (grey) of observed tool use in the scientific literature. Pie charts represent the posterior probability of tool use presence at each ancestral node.
 
 ```{r plotASR1, echo=FALSE, warning=FALSE, fig.width=10, fig.height=13, fig.cap="(ref:plotASR1Caption)"}
-tar_read(plotASR1)
+#tar_read(plotASR1)
+knitr::include_graphics("figures/asr1.pdf")
 ```
 
 \newpage
@@ -74,7 +76,8 @@ tar_read(plotASR1)
 (ref:plotASR2Caption) _Results of exploratory ancestral state reconstruction analysis fitted to post-video-survey data, represented on a maximum clade credibility tree._ Tip nodes represent the presence (red) or absence (grey) of observed tool use in the scientific literature and the video survey. Pie charts represent the posterior probability of tool use presence at each ancestral node.
 
 ```{r plotASR2, echo=FALSE, warning=FALSE, fig.width=10, fig.height=13, fig.cap="(ref:plotASR2Caption)"}
-tar_read(plotASR2)
+#tar_read(plotASR2)
+knitr::include_graphics("figures/asr2.pdf")
 ```
 
 \newpage
@@ -82,7 +85,8 @@ tar_read(plotASR2)
 (ref:plotASR3Caption) _Results of exploratory ancestral state reconstruction analysis fitted to predicted probabilities from the phylogenetic survival cure model, represented on a maximum clade credibility tree._ Tip nodes represent the median posterior predicted probabilities of tool use from the phylogenetic survival cure model, with more red indicating an increasing probability of tool use presence and more grey indicating a decreasing probability of tool use presence. Pie charts represent the posterior probability of tool use presence at each ancestral node.
 
 ```{r plotASR3, echo=FALSE, warning=FALSE, fig.width=10, fig.height=13, fig.cap="(ref:plotASR3Caption)"}
-tar_read(plotASR3)
+#tar_read(plotASR3)
+knitr::include_graphics("figures/asr3.pdf")
 ```
 
 \newpage
