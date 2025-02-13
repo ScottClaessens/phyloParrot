@@ -8,7 +8,7 @@
 
 \setcounter{page}{1}
 \centering
-\noindent \hspace*{5mm} \small New evidence of self-care tooling and phylogenetic modelling reveal parrot tool use is not rare \newline
+\noindent \hspace*{5mm} \small Evidence of self-care tooling and phylogenetic modelling reveal parrot tool use is not rare \newline
 \hspace*{1cm} \small Amalia P. M. Bastos\textsuperscript{1,2}, Scott Claessens\textsuperscript{2}, Ximena J. Nelson\textsuperscript{3}, David Welch\textsuperscript{4}, \newline
 \hspace*{25mm} Quentin D. Atkinson\textsuperscript{2}, Alex H. Taylor\textsuperscript{2,3,5,6} \newline
 \raggedright

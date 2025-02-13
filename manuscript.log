@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.13)  5 FEB 2025 10:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.13)  13 FEB 2025 16:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -643,24 +643,24 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
 (./manuscript.aux)
 \openout1 = `manuscript.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 219.
-LaTeX Font Info:    ... okay on input line 219.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 219.
-LaTeX Font Info:    ... okay on input line 219.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 219.
-LaTeX Font Info:    ... okay on input line 219.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 219.
-LaTeX Font Info:    ... okay on input line 219.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 219.
-LaTeX Font Info:    ... okay on input line 219.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 219.
-LaTeX Font Info:    ... okay on input line 219.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 219.
-LaTeX Font Info:    ... okay on input line 219.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 219.
-LaTeX Font Info:    ... okay on input line 219.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 219.
-LaTeX Font Info:    ... okay on input line 219.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -712,47 +712,48 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 219.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 221.
+Package hyperref Info: Link coloring OFF on input line 217.
+Class apa6 Info: Keywords not defined on input line 219.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 219.
 (c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 221.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 219.
 (c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 221.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 219.
 (c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 221.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 219.
 (c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 221.
+(Font)              <12> on input line 219.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 221.
+(Font)              <8> on input line 219.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 221.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 221.
+(Font)              <6> on input line 219.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 219.
 (c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 221.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 219.
 (c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 221.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 219.
 (c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 221.
+(Font)              <10> on input line 219.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 221.
+(Font)              <7> on input line 219.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 221.
+(Font)              <5> on input line 219.
 
 
 [1{c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}
@@ -760,73 +761,32 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 {c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
 
 [2]
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 226.
-(c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmss.fd
-File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
 
 [3]
 
 [4]
-<manuscript_files/figure-latex/plotDAG-1.pdf, id=36, 433.62pt x 259.97125pt>
-File: manuscript_files/figure-latex/plotDAG-1.pdf Graphic file (type pdf)
-<use manuscript_files/figure-latex/plotDAG-1.pdf>
-Package pdftex.def Info: manuscript_files/figure-latex/plotDAG-1.pdf  used on input line 320.
-(pdftex.def)             Requested size: 433.61894pt x 259.97061pt.
 
-
-[5 <./manuscript_files/figure-latex/plotDAG-1.pdf>]
+[5]
 
 [6]
 
-[7]
-<manuscript_files/figure-latex/plotPhylo1-1.pdf, id=67, 1228.59pt x 1084.05pt>
-File: manuscript_files/figure-latex/plotPhylo1-1.pdf Graphic file (type pdf)
-<use manuscript_files/figure-latex/plotPhylo1-1.pdf>
-Package pdftex.def Info: manuscript_files/figure-latex/plotPhylo1-1.pdf  used on input line 456.
-(pdftex.def)             Requested size: 469.75606pt x 414.49063pt.
+[7{c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}]
 
+[8]
 
-[8{c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}]
-
-[9 <./manuscript_files/figure-latex/plotPhylo1-1.pdf>]
+[9]
 
 [10]
 
 [11]
-<manuscript_files/figure-latex/plotSurvCure1-1.pdf, id=121, 505.89pt x 722.7pt>
-File: manuscript_files/figure-latex/plotSurvCure1-1.pdf Graphic file (type pdf)
-<use manuscript_files/figure-latex/plotSurvCure1-1.pdf>
-Package pdftex.def Info: manuscript_files/figure-latex/plotSurvCure1-1.pdf  used on input line 602.
-(pdftex.def)             Requested size: 455.3045pt x 650.43501pt.
-
-LaTeX Warning: Float too large for page by 50.80501pt on input line 607.
-
-<manuscript_files/figure-latex/plotSurvCure2-1.pdf, id=122, 505.89pt x 216.81pt>
-File: manuscript_files/figure-latex/plotSurvCure2-1.pdf Graphic file (type pdf)
-<use manuscript_files/figure-latex/plotSurvCure2-1.pdf>
-Package pdftex.def Info: manuscript_files/figure-latex/plotSurvCure2-1.pdf  used on input line 616.
-(pdftex.def)             Requested size: 469.76265pt x 201.32684pt.
-
 
 [12]
 
-[13 <./manuscript_files/figure-latex/plotSurvCure1-1.pdf>]
+[13]
 
-[14 <./manuscript_files/figure-latex/plotSurvCure2-1.pdf>]
-<manuscript_files/figure-latex/plotSurvCure4-1.pdf, id=160, 578.16pt x 289.08pt>
-File: manuscript_files/figure-latex/plotSurvCure4-1.pdf Graphic file (type pdf)
-<use manuscript_files/figure-latex/plotSurvCure4-1.pdf>
-Package pdftex.def Info: manuscript_files/figure-latex/plotSurvCure4-1.pdf  used on input line 675.
-(pdftex.def)             Requested size: 469.75385pt x 234.8769pt.
+[14]
 
-Overfull \hbox (17.89987pt too wide) in paragraph at lines 712--731
- [] 
- []
-
-
-
-[15 <./manuscript_files/figure-latex/plotSurvCure4-1.pdf>]
+[15]
 
 [16]
 
@@ -841,12 +801,17 @@ Overfull \hbox (17.89987pt too wide) in paragraph at lines 712--731
 [21]
 
 [22]
+Overfull \hbox (17.89987pt too wide) in paragraph at lines 889--908
+ [] 
+ []
+
+
 
 [23]
 
 [24]
 
-[25]
+[25{c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
 
 [26]
 
@@ -854,7 +819,7 @@ Overfull \hbox (17.89987pt too wide) in paragraph at lines 712--731
 
 [28]
 
-[29]
+[29{c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
 
 [30]
 
@@ -872,29 +837,29 @@ Overfull \hbox (17.89987pt too wide) in paragraph at lines 712--731
 
 [37]
 
-[38{c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
+[38]
 
 [39]
 
 [40]
 
-[41{c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
+[41]
 
 [42]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 1646.
+(Font)              <10.95> on input line 1575.
 
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1658 \newpage
+l.1587 \newpage
                 [1]
-<manuscript_files/figure-latex/plotSurvCure3-1.pdf, id=588, 361.35pt x 289.08pt>
+<manuscript_files/figure-latex/plotSurvCure3-1.pdf, id=513, 361.35pt x 289.08pt>
 File: manuscript_files/figure-latex/plotSurvCure3-1.pdf Graphic file (type pdf)
 <use manuscript_files/figure-latex/plotSurvCure3-1.pdf>
-Package pdftex.def Info: manuscript_files/figure-latex/plotSurvCure3-1.pdf  used on input line 1667.
+Package pdftex.def Info: manuscript_files/figure-latex/plotSurvCure3-1.pdf  used on input line 1596.
 (pdftex.def)             Requested size: 361.34912pt x 289.07928pt.
 
 
@@ -902,12 +867,12 @@ Package pdftex.def Info: manuscript_files/figure-latex/plotSurvCure3-1.pdf  used
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1671 \newpage
+l.1600 \newpage
                 [2 <./manuscript_files/figure-latex/plotSurvCure3-1.pdf>]
-<manuscript_files/figure-latex/plotSurvCure9-1.pdf, id=600, 289.08pt x 289.08pt>
+<manuscript_files/figure-latex/plotSurvCure9-1.pdf, id=525, 289.08pt x 289.08pt>
 File: manuscript_files/figure-latex/plotSurvCure9-1.pdf Graphic file (type pdf)
 <use manuscript_files/figure-latex/plotSurvCure9-1.pdf>
-Package pdftex.def Info: manuscript_files/figure-latex/plotSurvCure9-1.pdf  used on input line 1677.
+Package pdftex.def Info: manuscript_files/figure-latex/plotSurvCure9-1.pdf  used on input line 1606.
 (pdftex.def)             Requested size: 289.09251pt x 289.09251pt.
 
 
@@ -915,12 +880,12 @@ Package pdftex.def Info: manuscript_files/figure-latex/plotSurvCure9-1.pdf  used
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1681 \newpage
+l.1610 \newpage
                 [3 <./manuscript_files/figure-latex/plotSurvCure9-1.pdf>]
-<manuscript_files/figure-latex/plotSurvCure5-1.pdf, id=609, 505.89pt x 289.08pt>
+<manuscript_files/figure-latex/plotSurvCure5-1.pdf, id=534, 505.89pt x 289.08pt>
 File: manuscript_files/figure-latex/plotSurvCure5-1.pdf Graphic file (type pdf)
 <use manuscript_files/figure-latex/plotSurvCure5-1.pdf>
-Package pdftex.def Info: manuscript_files/figure-latex/plotSurvCure5-1.pdf  used on input line 1687.
+Package pdftex.def Info: manuscript_files/figure-latex/plotSurvCure5-1.pdf  used on input line 1616.
 (pdftex.def)             Requested size: 469.76265pt x 268.43579pt.
 
 
@@ -928,12 +893,12 @@ Package pdftex.def Info: manuscript_files/figure-latex/plotSurvCure5-1.pdf  used
 pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1691 \newpage
+l.1620 \newpage
                 [4 <./manuscript_files/figure-latex/plotSurvCure5-1.pdf>]
-<manuscript_files/figure-latex/plotSurvCure6-1.pdf, id=623, 469.755pt x 433.62pt>
+<manuscript_files/figure-latex/plotSurvCure6-1.pdf, id=547, 469.755pt x 433.62pt>
 File: manuscript_files/figure-latex/plotSurvCure6-1.pdf Graphic file (type pdf)
 <use manuscript_files/figure-latex/plotSurvCure6-1.pdf>
-Package pdftex.def Info: manuscript_files/figure-latex/plotSurvCure6-1.pdf  used on input line 1697.
+Package pdftex.def Info: manuscript_files/figure-latex/plotSurvCure6-1.pdf  used on input line 1626.
 (pdftex.def)             Requested size: 469.75386pt x 433.61894pt.
 
 
@@ -941,12 +906,12 @@ Package pdftex.def Info: manuscript_files/figure-latex/plotSurvCure6-1.pdf  used
 pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1701 \newpage
+l.1630 \newpage
                 [5 <./manuscript_files/figure-latex/plotSurvCure6-1.pdf>]
-<figures/comparison.pdf, id=633, 578.16pt x 289.08pt>
+<figures/comparison.pdf, id=557, 578.16pt x 289.08pt>
 File: figures/comparison.pdf Graphic file (type pdf)
 <use figures/comparison.pdf>
-Package pdftex.def Info: figures/comparison.pdf  used on input line 1707.
+Package pdftex.def Info: figures/comparison.pdf  used on input line 1636.
 (pdftex.def)             Requested size: 469.75385pt x 234.8769pt.
 
 
@@ -954,69 +919,69 @@ Package pdftex.def Info: figures/comparison.pdf  used on input line 1707.
 pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1711 \newpage
+l.1640 \newpage
                 [6 <./figures/comparison.pdf>]
-<figures/asr1.pdf, id=642, 722.7pt x 939.51pt>
+<figures/asr1.pdf, id=566, 722.7pt x 939.51pt>
 File: figures/asr1.pdf Graphic file (type pdf)
 <use figures/asr1.pdf>
-Package pdftex.def Info: figures/asr1.pdf  used on input line 1717.
+Package pdftex.def Info: figures/asr1.pdf  used on input line 1646.
 (pdftex.def)             Requested size: 469.76045pt x 610.6886pt.
 
-LaTeX Warning: Float too large for page by 24.6586pt on input line 1719.
+LaTeX Warning: Float too large for page by 24.6586pt on input line 1648.
 
-<figures/asr2.pdf, id=643, 722.7pt x 939.51pt>
+<figures/asr2.pdf, id=567, 722.7pt x 939.51pt>
 File: figures/asr2.pdf Graphic file (type pdf)
 <use figures/asr2.pdf>
-Package pdftex.def Info: figures/asr2.pdf  used on input line 1727.
+Package pdftex.def Info: figures/asr2.pdf  used on input line 1656.
 (pdftex.def)             Requested size: 469.76045pt x 610.6886pt.
 
-LaTeX Warning: Float too large for page by 24.6586pt on input line 1729.
+LaTeX Warning: Float too large for page by 24.6586pt on input line 1658.
 
-<figures/asr3.pdf, id=644, 722.7pt x 939.51pt>
+<figures/asr3.pdf, id=568, 722.7pt x 939.51pt>
 File: figures/asr3.pdf Graphic file (type pdf)
 <use figures/asr3.pdf>
-Package pdftex.def Info: figures/asr3.pdf  used on input line 1737.
+Package pdftex.def Info: figures/asr3.pdf  used on input line 1666.
 (pdftex.def)             Requested size: 469.76045pt x 610.6886pt.
 
-LaTeX Warning: Float too large for page by 51.85861pt on input line 1739.
+LaTeX Warning: Float too large for page by 51.85861pt on input line 1668.
 
-<manuscript_files/figure-latex/plotPhylo2-1.pdf, id=645, 1228.59pt x 1084.05pt>
+<manuscript_files/figure-latex/plotPhylo2-1.pdf, id=569, 1228.59pt x 1084.05pt>
 File: manuscript_files/figure-latex/plotPhylo2-1.pdf Graphic file (type pdf)
 <use manuscript_files/figure-latex/plotPhylo2-1.pdf>
-Package pdftex.def Info: manuscript_files/figure-latex/plotPhylo2-1.pdf  used on input line 1747.
+Package pdftex.def Info: manuscript_files/figure-latex/plotPhylo2-1.pdf  used on input line 1676.
 (pdftex.def)             Requested size: 469.75606pt x 414.49063pt.
-<manuscript_files/figure-latex/plotPhylo3-1.pdf, id=646, 1228.59pt x 1084.05pt>
+<manuscript_files/figure-latex/plotPhylo3-1.pdf, id=570, 1228.59pt x 1084.05pt>
 File: manuscript_files/figure-latex/plotPhylo3-1.pdf Graphic file (type pdf)
 <use manuscript_files/figure-latex/plotPhylo3-1.pdf>
-Package pdftex.def Info: manuscript_files/figure-latex/plotPhylo3-1.pdf  used on input line 1757.
+Package pdftex.def Info: manuscript_files/figure-latex/plotPhylo3-1.pdf  used on input line 1686.
 (pdftex.def)             Requested size: 469.75606pt x 414.49063pt.
-<manuscript_files/figure-latex/plotPhylo4-1.pdf, id=647, 1228.59pt x 1084.05pt>
+<manuscript_files/figure-latex/plotPhylo4-1.pdf, id=571, 1228.59pt x 1084.05pt>
 File: manuscript_files/figure-latex/plotPhylo4-1.pdf Graphic file (type pdf)
 <use manuscript_files/figure-latex/plotPhylo4-1.pdf>
-Package pdftex.def Info: manuscript_files/figure-latex/plotPhylo4-1.pdf  used on input line 1767.
+Package pdftex.def Info: manuscript_files/figure-latex/plotPhylo4-1.pdf  used on input line 1696.
 (pdftex.def)             Requested size: 469.75606pt x 414.49063pt.
-<manuscript_files/figure-latex/plotSurvCure7-1.pdf, id=648, 505.89pt x 722.7pt>
+<manuscript_files/figure-latex/plotSurvCure7-1.pdf, id=572, 505.89pt x 722.7pt>
 File: manuscript_files/figure-latex/plotSurvCure7-1.pdf Graphic file (type pdf)
 <use manuscript_files/figure-latex/plotSurvCure7-1.pdf>
-Package pdftex.def Info: manuscript_files/figure-latex/plotSurvCure7-1.pdf  used on input line 1777.
+Package pdftex.def Info: manuscript_files/figure-latex/plotSurvCure7-1.pdf  used on input line 1706.
 (pdftex.def)             Requested size: 455.3045pt x 650.43501pt.
 
-LaTeX Warning: Float too large for page by 37.205pt on input line 1779.
+LaTeX Warning: Float too large for page by 37.205pt on input line 1708.
 
-<manuscript_files/figure-latex/plotSurvCure8-1.pdf, id=649, 325.215pt x 542.025pt>
+<manuscript_files/figure-latex/plotSurvCure8-1.pdf, id=573, 325.215pt x 542.025pt>
 File: manuscript_files/figure-latex/plotSurvCure8-1.pdf Graphic file (type pdf)
 <use manuscript_files/figure-latex/plotSurvCure8-1.pdf>
-Package pdftex.def Info: manuscript_files/figure-latex/plotSurvCure8-1.pdf  used on input line 1787.
+Package pdftex.def Info: manuscript_files/figure-latex/plotSurvCure8-1.pdf  used on input line 1716.
 (pdftex.def)             Requested size: 325.22412pt x 542.0402pt.
-<manuscript_files/figure-latex/plotTrace-1.pdf, id=650, 433.62pt x 433.62pt>
+<manuscript_files/figure-latex/plotTrace-1.pdf, id=574, 433.62pt x 433.62pt>
 File: manuscript_files/figure-latex/plotTrace-1.pdf Graphic file (type pdf)
 <use manuscript_files/figure-latex/plotTrace-1.pdf>
-Package pdftex.def Info: manuscript_files/figure-latex/plotTrace-1.pdf  used on input line 1797.
+Package pdftex.def Info: manuscript_files/figure-latex/plotTrace-1.pdf  used on input line 1726.
 (pdftex.def)             Requested size: 433.63878pt x 433.63878pt.
-<manuscript_files/figure-latex/plotSurvCureSim-1.pdf, id=651, 614.295pt x 614.295pt>
+<manuscript_files/figure-latex/plotSurvCureSim-1.pdf, id=575, 614.295pt x 614.295pt>
 File: manuscript_files/figure-latex/plotSurvCureSim-1.pdf Graphic file (type pdf)
 <use manuscript_files/figure-latex/plotSurvCureSim-1.pdf>
-Package pdftex.def Info: manuscript_files/figure-latex/plotSurvCureSim-1.pdf  used on input line 1807.
+Package pdftex.def Info: manuscript_files/figure-latex/plotSurvCureSim-1.pdf  used on input line 1736.
 (pdftex.def)             Requested size: 469.75604pt x 469.75604pt.
 AED endfloat: Processing end Figures and Tables
 
@@ -1024,70 +989,70 @@ AED endfloat: Processing end Figures and Tables
 pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1812 \end{document}
+l.1741 \end{document}
                       [7 <./figures/asr1.pdf>]
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1812 \end{document}
+l.1741 \end{document}
                       [8 <./figures/asr2.pdf>]
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.9}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1812 \end{document}
+l.1741 \end{document}
                       [9 <./figures/asr3.pdf>]
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.10}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1812 \end{document}
+l.1741 \end{document}
                       [10 <./manuscript_files/figure-latex/plotPhylo2-1.pdf>]
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.11}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1812 \end{document}
+l.1741 \end{document}
                       [11 <./manuscript_files/figure-latex/plotPhylo3-1.pdf>]
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.12}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1812 \end{document}
+l.1741 \end{document}
                       [12 <./manuscript_files/figure-latex/plotPhylo4-1.pdf>]
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.13}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1812 \end{document}
+l.1741 \end{document}
                       [13 <./manuscript_files/figure-latex/plotSurvCure7-1.pdf>]
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.14}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1812 \end{document}
+l.1741 \end{document}
                       [14 <./manuscript_files/figure-latex/plotSurvCure8-1.pdf>]
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.15}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1812 \end{document}
+l.1741 \end{document}
                       [15 <./manuscript_files/figure-latex/plotTrace-1.pdf>]
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.16}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1812 \end{document}
+l.1741 \end{document}
                       [16 <./manuscript_files/figure-latex/plotSurvCureSim-1.pdf>] (./manuscript.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
@@ -1095,18 +1060,18 @@ L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 21203 strings out of 475178
- 397558 string characters out of 5764396
- 795937 words of memory out of 5000000
- 43620 multiletter control sequences out of 15000+600000
- 647704 words of font info for 114 fonts, out of 8000000 for 9000
+ 21127 strings out of 475178
+ 394685 string characters out of 5764396
+ 788314 words of memory out of 5000000
+ 43551 multiletter control sequences out of 15000+600000
+ 644933 words of font info for 113 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 72i,21n,79p,2249b,1181s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx8.pfb><c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmss8.pfb><c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on manuscript.pdf (58 pages, 2943346 bytes).
+ 72i,21n,79p,2249b,1137s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx8.pfb><c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/Users/sc2223/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
+Output written on manuscript.pdf (58 pages, 1730129 bytes).
 PDF statistics:
- 958 PDF objects out of 1000 (max. 8388607)
- 802 compressed objects within 9 object streams
- 223 named destinations out of 1000 (max. 500000)
- 325 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 880 PDF objects out of 1000 (max. 8388607)
+ 751 compressed objects within 8 object streams
+ 220 named destinations out of 1000 (max. 500000)
+ 308 words of extra memory for PDF output out of 10000 (max. 10000000)
 
